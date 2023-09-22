@@ -1,0 +1,68 @@
+--CADASTRO NOVO ACESSO - [ OK ]
+IDA = { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADMIN","matricula":"111","cpf":"222","email":"teste@gmail.com","senha":"97112100" }}}
+{"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADM321","matricula":"321321","cpf":"321321","email":"teste@gmail.com","senha":"321"}}}
+
+
+--USO-EQUIPAMENTO (CADASTRO)
+IDA = {"dados":{"entidade":"usoEquipamento","operacao":"cadastrar","objeto":{"idOperacao":"293","dataDevolucao":"0000-00-00","horaDevolucao":"0000-00-00","idEquipamento":"NPU8J51","isAvariado":null,"tipoEquipamento":"VIATURA","matriculaAgente":"41611","kmIni":2436,"kmFim":0}}}
+VOLTA = { "code": 0, "message": "Cadastro realizado com sucesso !", "data": null }
+
+
+--USO-EQUIPAMENTO (ATUALIZA)
+IDA = {"dados":{"entidade":"usoEquipamento","operacao":"atualizar","objeto":{
+  "idOperacao":"293",
+  "dataDevolucao":"0000-00-00",
+  "horaDevolucao":"0000-00-00",
+  "idEquipamento":"NPU8J51",
+  "tipoEquipamento":"VIATURA",
+  kmFim":0
+}}}
+
+
+VOLTA = { "code": 0, "message": "Cadastro realizado com sucesso !", "data": null
+
+--LOGIN  - [ OK ]
+IDA   = {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"123","cpf":"123"}}}
+VOLTA = {"code":0,"message":"Successo!","data":{"id":"1","nome":"PAULO PAIVA","cpf":"123","matricula":"123"}}
+        {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"22","senha":"98115"}}}
+
+
+
+-- CADASTRA OPERACAO - DADOS GERAIS
+IDA = {"dados":{"entidade":"operacao","operacao":"cadastrar","objeto":{"nomeOperacao":"Insira nome","data":"00-00-0000","bairro":null,"kmIni":"0.0","kmFim":"0.0","matriculaResponsavel":"41416","hraIni":null,"hraFim":null,"municipio":null,"observacoes":"Insira alguma observação."}}}
+VOLTA = {"code":0,"message":"Successo!","data":"{ "id" : 273}"}
+
+
+-- LISTA agentes
+IDA = {"dados":{"entidade":"agente","operacao":"consultar"}}
+VOLTA =
+{
+"code": "0",
+"message": "Successo!",
+"data": [
+{
+"nome": "ADSON CICERO SOUZA DE MENEZES",
+"matricula": "41416"
+},
+{
+"nome": "ALEX RIBEIRO DO NASCIMENTO",
+"matricula": "41441"
+}, ....
+{
+"nome":"WILLIAM DOS SANTOS MELO",
+"matricula": "42706"
+}]
+}
+
+-CONSULTA - LISTA OPERACOES POR DATA
+
+
+
+-CONSULTA - OPERACAO OperacaoDetalhada
+IDA (por data) => {"dados":{"entidade":"operacaoDetalhada","operacao":"consultar","objeto":{"data":"01-01-2001"}}}
+IDA (por id) => {"dados":{"entidade":"operacaoDetalhada","operacao":"consultar","objeto":{"id":"1"}}}
+
+-CONSULTA - TODOS EQUIPAMENTOS
+IDA => {"dados":{"entidade":"equipamento","operacao":"consultar"}}
+VOLTA =>
+{"code":0,"message":"Successo!","data":[{"id":"1029360","numSerie":"121TUB3420","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029359","numSerie":"121TUB4152","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029358","numSerie":"121TUB4280","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029357","numSerie":"121TUB4300","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029356","numSerie":"121TUB4094","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029355","numSerie":"121TUB3370","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029354","numSerie":"121TUB3642","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029353","numSerie":"121TUB3951","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029352","numSerie":"121TUB4038","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029351","numSerie":"121TUB4037","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029350","numSerie":"121TUB3604","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029349","numSerie":"121TUB3789","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029348","numSerie":"121TUB3787","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029347","numSerie":"121TUB3608","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029346","numSerie":"121TUB3446","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029345","numSerie":"121TUB3271","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029344","numSerie":"121TUB4122","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029343","numSerie":"121TUB3658","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029342","numSerie":"121TUB3707","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029341","numSerie":"121TUB3622","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029340","numSerie":"121TUB3444","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029339","numSerie":"121TUB4241","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029338","numSerie":"121TUB4109","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029337","numSerie":"121TUB3731","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029336","numSerie":"121TUB4119","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029335","numSerie":"121TUB3401","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029334","numSerie":"121TUB3674","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029333","numSerie":"121TUB4223","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029332","numSerie":"121TUB3596","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029331","numSerie":"121TUB3631","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029330","numSerie":"121TUB3794","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"3005974","numSerie":"3005974","tipo":"COLETE","tamanho":"G","placa":""},{"id":"3005975","numSerie":"3005975","tipo":"COLETE","tamanho":"G","placa":""},{"id":"3005991","numSerie":"3005991","tipo":"COLETE","tamanho":"G","placa":""},{"id":"3005992","numSerie":"3005992","tipo":"COLETE","tamanho":"G","placa":""},{"id":"3005993","numSerie":"3005993","tipo":"COLETE","tamanho":"G","placa":""},{"id":"2490620","numSerie":"2490620","tipo":"COLETE","tamanho":"G","placa":""},{"id":"2853889","numSerie":"2853889","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853892","numSerie":"2853892","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853893","numSerie":"2853893","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853891","numSerie":"2853891","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853890","numSerie":"2853890","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853899","numSerie":"2853899","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853900","numSerie":"2853900","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853971","numSerie":"2853971","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853972","numSerie":"2853972","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853902","numSerie":"2853902","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853969","numSerie":"2853969","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853970","numSerie":"2853970","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853973","numSerie":"2853973","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853901","numSerie":"2853901","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853903","numSerie":"2853903","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853925","numSerie":"2853925","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853928","numSerie":"2853928","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853927","numSerie":"2853927","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853926","numSerie":"2853926","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853924","numSerie":"2853924","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853858","numSerie":"2853858","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853857","numSerie":"2853857","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853855","numSerie":"2853855","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853856","numSerie":"2853856","tipo":"COLETE","tamanho":"M","placa":""},{"id":"2853854","numSerie":"2853854","tipo":"COLETE","tamanho":"M","placa":""},{"id":"14122722","numSerie":"14122722","tipo":"COLETE","tamanho":"M","placa":""},{"id":"14122721","numSerie":"14122721","tipo":"COLETE","tamanho":"M","placa":""},{"id":"14122713","numSerie":"14122713","tipo":"COLETE","tamanho":"M","placa":""},{"id":"14122716","numSerie":"14122716","tipo":"COLETE","tamanho":"M","placa":""},{"id":"14122723","numSerie":"14122723","tipo":"COLETE","tamanho":"M","placa":""},{"id":"14122712","numSerie":"14122712","tipo":"COLETE","tamanho":"M","placa":""},{"id":"14122714","numSerie":"14122714","tipo":"COLETE","tamanho":"M","placa":""},{"id":"14122719","numSerie":"14122719","tipo":"COLETE","tamanho":"M","placa":""},{"id":"14122718","numSerie":"14122718","tipo":"COLETE","tamanho":"M","placa":""},{"id":"14122720","numSerie":"14122720","tipo":"COLETE","tamanho":"M","placa":""},{"id":"14122715","numSerie":"14122715","tipo":"COLETE","tamanho":"M","placa":""},{"id":"91604948","numSerie":"91604948","tipo":"COLETE","tamanho":"M","placa":""},{"id":"14122717","numSerie":"14122717","tipo":"COLETE","tamanho":"M","placa":""},{"id":"14872491","numSerie":"14872491","tipo":"COLETE","tamanho":"P","placa":""},{"id":"91579803","numSerie":"91579803","tipo":"COLETE","tamanho":"P","placa":""},{"id":"14872427","numSerie":"14872427","tipo":"COLETE","tamanho":"P","placa":""},{"id":"29","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"NPU8J51"},{"id":"30","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"NPU9131"},{"id":"27","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"QFL2D01"},{"id":"28","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"QFX9749"},{"id":"25","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"QFL2C51"},{"id":"26","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"QFL2D81"},{"id":"23","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"QFL2D61"},{"id":"24","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"QFL2C71"},{"id":"21","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"QFL2C31"},{"id":"22","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"QFL2D71"},{"id":"19","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"QFL2D41"},{"id":"20","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"QFL2E21"},{"id":"17","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"QFL2E01"},{"id":"18","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"QFL2C21"},{"id":"15","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS015"},{"id":"16","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"QFL2E11"},{"id":"13","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS013"},{"id":"14","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS014"},{"id":"11","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS011"},{"id":"12","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS012"},{"id":"9","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS009"},{"id":"10","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS010"},{"id":"7","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS007"},{"id":"8","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS008"},{"id":"5","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS005"},{"id":"6","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS006"},{"id":"3","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS003"},{"id":"4","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS004"},{"id":"1","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS001"},{"id":"2","numSerie":"","tipo":"VIATURA","tamanho":"","placa":"OLS002"},{"id":"1029361","numSerie":"121TUB3607","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029362","numSerie":"121TUB3635","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029363","numSerie":"121TUB3867","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029364","numSerie":"121TUB3896","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029365","numSerie":"121TUB3278","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029366","numSerie":"121TUB3287","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029367","numSerie":"121TUB3598","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029368","numSerie":"121TUB3589","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029369","numSerie":"121TUB3718","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029032","numSerie":"893TSVA527","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029033","numSerie":"893TSV5290","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029034","numSerie":"893TSV6387","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029035","numSerie":"893TSV8778","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029036","numSerie":"893TSV8131","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029037","numSerie":"893TSV8623","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029038","numSerie":"893TSV8617","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029039","numSerie":"893TSV8625","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029040","numSerie":"893TSV8152","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029042","numSerie":"893TSV8853","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029043","numSerie":"893TSV5325","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029045","numSerie":"893TSV8776","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029046","numSerie":"893TSV8189","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029047","numSerie":"893TSV8773","tipo":"RADIO_HT","tamanho":"","placa":""},{"id":"1029044","numSerie":"893TSV8772","tipo":"RADIO_HT","tamanho":"","placa":""}]}

@@ -1,0 +1,270 @@
+[ 12:13:12.997 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:13:12.997 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"123","senha":"97115102"}}}
+[ 12:13:12.997 ] OUT << {"code":99,"message":"Erro: Senha invalida!","data":null}
+[ 12:15:18.094 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"PABINHA","matricula":"42731","cpf":"07066322495","email":"teste@gmail.com","senha":"3252573733"}}}
+[ 12:15:18.094 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 12:15:32.370 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"PABINHA","matricula":"42731","cpf":"07066322491","email":"teste@gmail.com","senha":"3252573733"}}}
+[ 12:15:32.370 ] OUT << {"code":99,"message":"Matricula de usuario ja existente!","data":null}
+[ 12:15:40.265 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"PABINHA","matricula":"666","cpf":"07066322491","email":"teste@gmail.com","senha":"3252573733"}}}
+[ 12:15:40.265 ] OUT << {"code":99,"message":"Matricula de usuario ja existente!","data":null}
+[ 12:15:45.306 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"PABINHA","matricula":"6666","cpf":"07066322491","email":"teste@gmail.com","senha":"3252573733"}}}
+[ 12:15:45.306 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"26"}}
+[ 12:16:11.487 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"6666","senha":"3252573733"}}}
+[ 12:16:11.509 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:16:11.487 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"26","nome":"PABINHA","cpf":"7066322491","matricula":"6666","email":"teste@gmail.com","senha":"null"}}
+[ 12:19:10.822 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"6666","senha":"3252573733"}}}
+[ 12:19:10.822 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"26","nome":"PABINHA","cpf":"7066322491","matricula":"6666","email":"teste@gmail.com","senha":"null"}}
+[ 12:19:10.905 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:19:22.892 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:19:31.604 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"6666","senha":"97115102"}}}
+[ 12:19:31.604 ] OUT << {"code":99,"message":"Erro: Senha invalida!","data":null}
+[ 12:19:36.419 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"6666","senha":"3252573733"}}}
+[ 12:19:36.419 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"26","nome":"PABINHA","cpf":"7066322491","matricula":"6666","email":"teste@gmail.com","senha":"null"}}
+[ 12:19:36.502 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:19:45.950 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:20:02.524 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"6666","senha":"3252573733"}}}
+[ 12:20:02.524 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"26","nome":"PABINHA","cpf":"7066322491","matricula":"6666","email":"teste@gmail.com","senha":"null"}}
+[ 12:20:02.621 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:24:00.521 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:24:08.646 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"6666","senha":"3252573733"}}}
+[ 12:24:08.646 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"26","nome":"PABINHA","cpf":"7066322491","matricula":"6666","email":"teste@gmail.com","senha":"null"}}
+[ 12:24:08.735 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:25:20.249 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:25:28.983 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"6666","senha":"3252573733"}}}
+[ 12:25:28.983 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"26","nome":"PABINHA","cpf":"7066322491","matricula":"6666","email":"teste@gmail.com","senha":"null"}}
+[ 12:25:29.083 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:27:13.349 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:27:27.616 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"6666","senha":"3252573733"}}}
+[ 12:27:27.616 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"26","nome":"PABINHA","cpf":"7066322491","matricula":"6666","email":"teste@gmail.com","senha":"null"}}
+[ 12:27:27.712 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:27:57.864 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"6666","senha":"3252573733"}}}
+[ 12:27:57.864 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"26","nome":"PABINHA","cpf":"7066322491","matricula":"6666","email":"teste@gmail.com","senha":"null"}}
+[ 12:27:57.961 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:28:07.383 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:28:07.437 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:28:12.287 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:29:22.209 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"6666","senha":"3252573733"}}}
+[ 12:29:22.209 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"26","nome":"PABINHA","cpf":"7066322491","matricula":"6666","email":"teste@gmail.com","senha":"null"}}
+[ 12:29:22.304 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:29:44.754 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:29:53.749 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"6666","senha":"3252573733"}}}
+[ 12:29:53.749 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"26","nome":"PABINHA","cpf":"7066322491","matricula":"6666","email":"teste@gmail.com","senha":"null"}}
+[ 12:29:53.853 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:30:41.433 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:30:50.773 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"6666","senha":"3252573733"}}}
+[ 12:30:50.773 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"26","nome":"PABINHA","cpf":"7066322491","matricula":"6666","email":"teste@gmail.com","senha":"null"}}
+[ 12:30:50.866 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:35:10.937 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:35:37.478 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"teste","matricula":"123","cpf":"123123","email":"123@gmail.com","senha":"97115102"}}}
+[ 12:35:37.478 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 12:35:44.010 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"teste","matricula":"123","cpf":"223123344","email":"123@gmail.com","senha":"97115102"}}}
+[ 12:35:44.010 ] OUT << {"code":99,"message":"Matricula de usuario ja existente!","data":null}
+[ 12:35:54.514 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"teste","matricula":"555","cpf":"223123344","email":"123@gmail.com","senha":"97115102"}}}
+[ 12:35:54.514 ] OUT << {"code":99,"message":"Nome de usuario ja existente!","data":null}
+[ 12:35:59.475 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"teste ss","matricula":"555","cpf":"223123344","email":"123@gmail.com","senha":"97115102"}}}
+[ 12:35:59.475 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"27"}}
+[ 12:36:06.803 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 12:36:06.803 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 12:36:06.901 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:36:46.491 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:36:54.710 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"","senha":""}}}
+[ 12:36:54.710 ] OUT << {"code":99,"message":"Erro: Matricula ou senha nulo(s) !! ","data":null}
+[ 12:36:59.997 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 12:36:59.997 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 12:37:00.095 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:37:09.611 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:37:19.001 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 12:37:19.001 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 12:37:19.098 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:41:46.837 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:41:58.653 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 12:41:58.653 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 12:41:58.743 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:45:32.851 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:45:46.915 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 12:45:46.915 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 12:45:53.576 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"3252573733"}}}
+[ 12:45:53.576 ] OUT << {"code":99,"message":"Erro: Senha invalida!","data":null}
+[ 12:46:07.015 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 12:46:07.015 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 12:46:08.476 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 12:46:08.476 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 12:46:09.309 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 12:46:09.309 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 12:46:14.255 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 12:46:14.255 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 12:46:31.598 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 12:46:31.598 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 12:46:31.703 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:52:36.968 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:52:43.620 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 12:52:43.620 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 12:52:43.712 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:52:55.634 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:53:07.755 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 12:53:07.755 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 12:53:07.846 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:53:29.346 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:53:35.099 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 12:53:35.099 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 12:53:35.188 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:53:57.086 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 12:57:39.584 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 12:57:39.584 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 12:57:39.688 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 13:12:34.535 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 13:12:34.535 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 13:12:34.629 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 13:13:25.623 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 13:13:25.623 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 13:13:25.721 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 13:13:31.487 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 13:13:40.236 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 13:13:40.236 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 13:13:40.331 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 13:15:20.221 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 13:15:20.221 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 13:15:20.320 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 13:15:54.208 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 13:15:54.208 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 13:15:54.300 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 13:16:34.173 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 13:16:34.173 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 13:16:34.263 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 13:16:48.813 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 13:16:48.813 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 13:16:48.911 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 13:18:54.113 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 13:18:54.113 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 13:18:54.211 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 13:19:53.315 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 13:19:53.315 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 13:19:53.406 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 13:21:39.855 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"555","senha":"97115102"}}}
+[ 13:21:39.855 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"27","nome":"teste ss","cpf":"223123344","matricula":"555","email":"123@gmail.com","senha":"null"}}
+[ 13:21:39.963 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 15:23:14.461 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"USE2R","matricula":"427321","cpf":"1231211","email":"ola@gmail.com"}}}
+[ 15:23:14.461 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 15:51:48.819 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"USE2R","matricula":"2222","cpf":"31242312","email":"ola@gmail.com"}} }
+[ 15:51:48.819 ] OUT << {"code":99,"message":"Nome de usuario ja existente!","data":null}
+[ 15:51:53.140 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"USE2R2","matricula":"2222","cpf":"31242312","email":"ola@gmail.com"}} }
+[ 15:51:53.140 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"28"}}
+[ 16:20:42.792 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"testaaa","matricula":"234123","cpf":"124","email":"ola@gmail.com"}} }
+[ 16:20:42.792 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"29"}}
+[ 13:21:46.504 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"PAMONHAO","matricula":"2134123","cpf":"1224","email":"ola@gmail.com"}} }
+[ 13:21:46.504 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"30"}}
+[ 13:27:31.564 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"123","senha":"97115102"}}}
+[ 13:27:31.564 ] OUT << {"code":99,"message":"Erro: Senha invalida!","data":null}
+[ 13:28:13.690 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADMIN1","matricula":"111","cpf":"111","email":"teste@gmail.com","senha":"97112100"}}}
+[ 13:28:13.690 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"31"}}
+[ 13:28:16.736 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADMIN1","matricula":"111","cpf":"111","email":"teste@gmail.com","senha":"97112100"}}}
+[ 13:28:16.736 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 13:28:20.017 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADMIN1","matricula":"111","cpf":"111","email":"teste@gmail.com","senha":"97112100"}}}
+[ 13:28:20.017 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 13:28:31.220 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADMIN","matricula":"111","cpf":"111","email":"teste@gmail.com","senha":"97112100"}}}
+[ 13:28:31.220 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 13:28:40.571 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADMIN","matricula":"111","cpf":"111","email":"teste@gmail.com","senha":"97112100"}}}
+[ 13:28:40.571 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 13:28:46.860 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADMIN","matricula":"111","cpf":"222","email":"teste@gmail.com","senha":"97112100"}}}
+[ 13:28:46.860 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 13:28:58.836 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADMIN","matricula":"321","cpf":"321","email":"teste@gmail.com","senha":"99115100"}}}
+[ 13:28:58.836 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"32"}}
+[ 13:29:06.618 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"321","senha":"99115100"}}}
+[ 13:29:06.618 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"32","nome":"ADMIN","cpf":"321","matricula":"321","email":"teste@gmail.com","senha":"null"}}
+[ 13:29:06.731 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 13:37:01.864 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"321","senha":"99115100"}}}
+[ 13:38:00.932 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"321","senha":"99115100"}}}
+[ 13:38:24.840 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"321","senha":"99115100"}}}
+[ 13:39:37.196 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"321","senha":"99115100"}}}
+[ 13:39:37.196 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"32","nome":"ADMIN","cpf":"321","matricula":"321","email":"teste@gmail.com","senha":"null"}}
+[ 13:39:37.504 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 13:47:10.573 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"KKK","matricula":"32112","cpf":"51232","email":"teste@gmail.com","senha":"97112100" }}}
+[ 13:47:10.573 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"33"}}
+[ 13:47:58.652 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"KKK","matricula":"32112","cpf":"51232","email":"teste@gmail.com","senha":"97112100" }}}
+[ 13:47:58.652 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 13:49:15.024 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"KKK","matricula":"32112","cpf":"51232","email":"teste@gmail.com","senha":"97112100" }}}
+[ 13:49:15.024 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 13:57:30.508 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"KKK","matricula":"32112","cpf":"51232","email":"teste@gmail.com","senha":"97112100" }}}
+[ 13:57:30.508 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 13:57:53.927 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"KKK","matricula":"32112","cpf":"51232","email":"teste@gmail.com","senha":"97112100" }}}
+[ 13:57:53.927 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 13:58:12.365 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"KK12K","matricula":"321121","cpf":"512321","email":"teste@gmail.com","senha":"97112100" }}}
+[ 13:58:12.365 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"34"}}
+[ 14:21:03.700 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"KK12K","matricula":"321121","cpf":"512321","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:21:03.700 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:21:15.474 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"KK112K","matricula":"3211121","cpf":"5123221","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:21:15.474 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"35"}}
+[ 14:26:35.362 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"K1K","matricula":"32111211","cpf":"51223221","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:26:59.384 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"K1K","matricula":"32111211","cpf":"51223221","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:26:59.384 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"36"}}
+[ 14:27:05.734 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"K1K","matricula":"32111211","cpf":"51223221","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:27:05.734 ] OUT << true
+[ 14:28:32.987 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"K1K","matricula":"32111211","cpf":"51223221","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:28:32.987 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:28:45.617 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"K21K","matricula":"321121211","cpf":"512232221","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:28:45.617 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"37"}}
+[ 14:33:01.559 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"K21K","matricula":"321121211","cpf":"512232221","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:33:01.559 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:42:35.984 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"DET1","matricula":"1123","cpf":"232","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:43:13.281 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"DET1","matricula":"1123","cpf":"232","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:43:13.281 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"38"}}
+[ 14:43:16.449 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"DET1","matricula":"1123","cpf":"232","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:43:16.449 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:44:08.628 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"DET221","matricula":"133123","cpf":"23432","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:44:08.628 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"39"}}
+[ 14:44:10.664 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"DET221","matricula":"133123","cpf":"23432","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:44:10.664 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:44:42.269 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"DET221","matricula":"133123","cpf":"23432","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:44:42.269 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:44:55.008 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"DET221","matricula":"133123","cpf":"23432","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:44:55.008 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:46:57.419 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"DET2321","matricula":"1333123","cpf":"234432","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:46:57.419 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"40"}}
+[ 14:47:00.478 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"DET2321","matricula":"1333123","cpf":"234432","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:47:00.478 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:48:25.838 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"PAULOCV","matricula":"331123","cpf":"121232","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:48:25.838 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"41"}}
+[ 14:48:27.742 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"PAULOCV","matricula":"331123","cpf":"121232","email":"teste@gmail.com","senha":"97112100" }}}
+[ 14:48:27.742 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:52:27.909 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"PULU","matricula":"6633","cpf":"334455","email":"teste@gmail.com", "senha":"97112100" }}}
+[ 14:52:27.909 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"42"}}
+[ 14:52:34.352 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"PULU","matricula":"6633","cpf":"334455","email":"teste@gmail.com", "senha":"97112100" }}}
+[ 14:52:34.352 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:56:44.796 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADM","matricula":"21","cpf":"21","email":"teste@gmail.com","senha":"98112"}}}
+[ 14:56:44.796 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"43"}}
+[ 14:57:57.818 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADM","matricula":"21","cpf":"21","email":"teste@gmail.com","senha":"98112"}}}
+[ 14:57:57.818 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:58:02.742 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADM","matricula":"21","cpf":"21","email":"teste@gmail.com","senha":"98112"}}}
+[ 14:58:02.742 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:58:12.807 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"PULU","matricula":"6633","cpf":"334455","email":"teste@gmail.com", "senha":"97112100" }}}
+[ 14:58:12.807 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:59:11.499 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"PULU","matricula":"6633","cpf":"334455","email":"teste@gmail.com", "senha":"97112100" }}}
+[ 14:59:11.499 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:59:18.416 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"PULU","matricula":"6633","cpf":"334455","email":"teste@gmail.com", "senha":"97112100" }}}
+[ 14:59:18.416 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:59:24.669 ] IN >> { "dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"PULU","matricula":"6633","cpf":"222","email":"teste@gmail.com", "senha":"97112100" }}}
+[ 14:59:24.669 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:59:37.482 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADM","matricula":"21","cpf":"21","email":"teste@gmail.com","senha":"98112"}}}
+[ 14:59:37.482 ] OUT << {"code":99,"message":"CPF de usuario ja existente!","data":null}
+[ 14:59:46.863 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADM","matricula":"22","cpf":"22","email":"teste@gmail.com","senha":"98115"}}}
+[ 14:59:46.863 ] OUT << {"code":99,"message":"Nome de usuario ja existente!","data":null}
+[ 14:59:51.028 ] IN >> {"dados":{"entidade":"usuario","operacao":"cadastrar","objeto":{"nome":"ADM22","matricula":"22","cpf":"22","email":"teste@gmail.com","senha":"98115"}}}
+[ 14:59:51.028 ] OUT << {"code":0,"message":"Novo acesso gerado com successo!","data":{"id":"44"}}
+[ 14:59:57.486 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"22","senha":"98115"}}}
+[ 14:59:57.486 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"44","nome":"ADM22","cpf":"22","matricula":"22","email":"teste@gmail.com","senha":"null","isSenhaModificada":"1"}}
+[ 14:59:57.574 ] IN >> {"dados":{"entidade":"agente","operacao":"consultar"}}
+[ 15:00:14.487 ] IN >> {"dados":{"entidade":"usuario","operacao":"login","objeto":{"matricula":"22","senha":"98115"}}}
+[ 15:00:14.487 ] OUT << {"code":0,"message":"Sucesso!","data":{"id":"44","nome":"ADM22","cpf":"22","matricula":"22","email":"teste@gmail.com","senha":"null","isSenhaModificada":"1"}}
+[ 16:56:51.150 ] IN >> {"dados":{"entidade":"usoEquipamento","operacao":"cadastrar","objeto":{"idOperacao":"337","dataDevolucao":"0000-00-00","horaDevolucao":"0000-00-00","idEquipamento":"QFX9749","isAvariado":null,"tipoEquipamento":"VIATURA","matriculaAgente":"41441","kmIni":2677.5,"kmFim":0}}}
+[ 16:56:51.150 ] OUT << {"code":99,"message":"Operacao inexistente (337)","data":null}
+[ 16:57:02.780 ] IN >> {"dados":{"entidade":"usoEquipamento","operacao":"cadastrar","objeto":{"idOperacao":"333","dataDevolucao":"0000-00-00","horaDevolucao":"0000-00-00","idEquipamento":"QFX9749","isAvariado":null,"tipoEquipamento":"VIATURA","matriculaAgente":"41441","kmIni":2677.5,"kmFim":0}}}
+[ 16:57:02.780 ] OUT << {"code":99,"message":"Operacao inexistente (333)","data":null}
+[ 16:57:09.776 ] IN >> {"dados":{"entidade":"usoEquipamento","operacao":"cadastrar","objeto":{"idOperacao":"1","dataDevolucao":"0000-00-00","horaDevolucao":"0000-00-00","idEquipamento":"QFX9749","isAvariado":null,"tipoEquipamento":"VIATURA","matriculaAgente":"41441","kmIni":2677.5,"kmFim":0}}}
+[ 16:57:09.776 ] OUT << {"code":99,"message":"Operacao inexistente (1)","data":null}
+[ 16:57:33.632 ] IN >> {"dados":{"entidade":"operacaoDetalhada","operacao":"consultar","objeto":{"data":"01-01-2001"}}}
+[ 16:57:44.957 ] IN >> {"dados":{"entidade":"operacaoDetalhada","operacao":"consultar","objeto":{"data":"2001-01-01"}}}
+[ 16:57:44.957 ] OUT << {"code":99,"message":"Operacao inexistente para esta data.","data":null}
+[ 16:59:16.915 ] IN >> {"dados":{"entidade":"usoEquipamento","operacao":"cadastrar","objeto":{"idOperacao":"337","dataDevolucao":"2022-01-01","horaDevolucao":"0000-00-00","idEquipamento":"QFX9749","isAvariado":null,"tipoEquipamento":"VIATURA","matriculaAgente":"41441","kmIni":2677.5,"kmFim":0}}}
+[ 16:59:16.915 ] OUT << {"code":99,"message":"Operacao inexistente (337)","data":null}
+[ 17:07:04.852 ] IN >> {"dados":{"entidade":"usoEquipamento","operacao":"cadastrar","objeto":{"idOperacao":"337","dataDevolucao":"2022-01-01","horaDevolucao":"0000-00-00","idEquipamento":"QFX9749","isAvariado":null,"tipoEquipamento":"VIATURA","matriculaAgente":"41441","kmIni":2677.5,"kmFim":0}}}
+[ 17:07:04.852 ] OUT << {"code":99,"message":"Operacao inexistente (337)","data":null}

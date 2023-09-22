@@ -4,6 +4,7 @@ namespace App\Db;
 
 use \PDO;
 use \PDOException;
+use App\Entity\ConfigurationAPI;
 
 class Database{
 
@@ -11,25 +12,25 @@ class Database{
    * Host de conexão com o banco de dados
    * @var string
    */
-  const HOST = 'db';
+  const HOST = 'localhost';
 
   /**
    * Nome do banco de dados
    * @var string
    */
-  const NAME = 'wdev_vagas';
+  const NAME = 'detran';
 
   /**
    * Usuário do banco
    * @var string
    */
-  const USER = 'root';
+  const USER = 'paulo';
 
   /**
    * Senha de acesso ao banco de dados
    * @var string
    */
-  const PASS = 'toor';
+  const PASS = 'paulo';
 
   /**
    * Nome da tabela a ser manipulada
@@ -43,12 +44,19 @@ class Database{
    */
   private $connection;
 
+
+  private $IS_DB_ERROR = false;
+  private $isUserCadastro;
+
+  // ############################## TODO: Tratar os erros do SQL NESTA CLASSE P/ RETORNAR MAIS AMIGÁVEL ########################
+
   /**
    * Define a tabela e instancia e conexão
    * @param string $table
    */
-  public function __construct($table = null){
+  public function __construct( $table = null , $isUserCadastro = false ) {
     $this->table = $table;
+    $this->isUserCadastro = $isUserCadastro;
     $this->setConnection();
   }
 
@@ -70,14 +78,32 @@ class Database{
    * @param  array  $params
    * @return PDOStatement
    */
-  public function execute($query,$params = []){
-    try{
-      $statement = $this->connection->prepare($query);
-      $statement->execute($params);
-      return $statement;
-    }catch(PDOException $e){
-      die('ERROR: '.$e->getMessage());
-    }
+  public function execute($query,$params = [])
+  {
+      try {
+           //if ( ConfigurationAPI::$EXECUTION_MODE == 'DEBsUG')  {
+                ;
+          //}
+          $statement = $this->connection->prepare($query);
+          /*echo "--------- DB: execute ----------";
+          echo '-- SQL Statement';
+          print_r( $statement );
+          /** echo '-- Valores';
+          print_r( $params );**/
+
+          $statement->execute( $params );
+          return $statement;
+      }
+      catch(  PDOException $e )
+      {
+        // ############################## TODO: Tratar os erros do SQL NESTA CLASSE P/ RETORNAR MAIS AMIGÁVEL ########################
+        // Tratamento diferente para o CASO de USUÁRIO
+        if ( $this->isUserCadastro )  {
+             $this->IS_DB_ERROR = true;
+             return $e->getMessage();
+        }
+        die('ERROR: '. $e->getMessage() );
+      }
   }
 
   /**
@@ -91,10 +117,13 @@ class Database{
     $binds  = array_pad([],count($fields),'?');
 
     //MONTA A QUERY
-    $query = 'INSERT INTO '.$this->table.' ('.implode(',',$fields).') VALUES ('.implode(',',$binds).')';
+    $query = 'INSERT INTO ' . $this->table . '(' . implode( ',' , $fields ) . ') VALUES (' . implode(',' , $binds) . ')';
 
-    //EXECUTA O INSERT
-    $this->execute($query,array_values($values));
+    $sqlReturn = $this->execute( $query,array_values( $values ) );
+
+    // RELANÇA A EXCEÇÃO !!!!!!
+    if ( $this->IS_DB_ERROR )
+         return $sqlReturn;
 
     //RETORNA O ID INSERIDO
     return $this->connection->lastInsertId();
@@ -109,16 +138,39 @@ class Database{
    * @return PDOStatement
    */
   public function select($where = null, $order = null, $limit = null, $fields = '*'){
+
     //DADOS DA QUERY
-    $where = strlen($where) ? 'WHERE '.$where : '';
+    $where = strlen($where) ? 'WHERE '   .$where : '';
     $order = strlen($order) ? 'ORDER BY '.$order : '';
-    $limit = strlen($limit) ? 'LIMIT '.$limit : '';
-
+    $limit = strlen($limit) ? 'LIMIT '   .$limit : '';
     //MONTA A QUERY
-    $query = 'SELECT '.$fields.' FROM '.$this->table.' '.$where.' '.$order.' '.$limit;
+    $query = 'SELECT '.$fields.' FROM '.$this->table.' '.$where.' '.$order.' '. $limit;
 
+    // echo "QUERY = " . $query;
     //EXECUTA A QUERY
-    return $this->execute($query);
+    return $this->execute( $query );
+  }
+
+  public function selectJOIN($where = null, $order = null, $limit = null, $fields = '*', $joins = null) {
+      // DADOS DA QUERY
+      $where = strlen($where) ? 'WHERE '.$where : '';
+      $order = strlen($order) ? 'ORDER BY '.$order : '';
+      $limit = strlen($limit) ? 'LIMIT '.$limit : '';
+
+      // MONTA A QUERY
+      $query = 'SELECT '.$fields.' FROM '.$this->table;
+
+
+      // ADICIONA OS JOINS, SE HOUVEREM
+      if (!empty($joins)) {
+          $query .= ' '.$joins;
+      }
+
+      $query .= ' '.$where.' '.$order.' '.$limit;
+    //  echo 'select query ==>> ' . $query . '<br>';
+
+      // EXECUTA A QUERY
+      return $this->execute($query);
   }
 
   /**
@@ -131,8 +183,14 @@ class Database{
     //DADOS DA QUERY
     $fields = array_keys($values);
 
+    /*echo " ----------- fields ----------- ";
+    print_r( $fields );*/
+
+
     //MONTA A QUERY
     $query = 'UPDATE '.$this->table.' SET '.implode('=?,',$fields).'=? WHERE '.$where;
+
+    // echo "Query ==>> " . $query;
 
     //EXECUTAR A QUERY
     $this->execute($query,array_values($values));
