@@ -118,7 +118,7 @@ class OperacaoDetalhada
         $operacao = $resp->data;
 
         if ( $resp->code != 0 ) {
-             return new Response( 99, "Operacao inexistente para esta data.", null );
+             return new Response( 99, "Operacao inexistente.", null );
         }
         // 2- Busca ocorrências de UsoEquipamento
         $opData = json_decode( $resp->data, true);

@@ -1,0 +1,390 @@
+[ 14:16:09.235 ] IN >> {"dados":{"entidade":"usoEquipamento","operacao":"cadastrar","objeto":{"idOperacao":"371","dataDevolucao":"0000-00-00","horaDevolucao":"00:00:00","idEquipamento":"QFL2C51","isAvariado":null,"tipoEquipamento":"VIATURA","matriculaAgente":"41441","kmIni":2604,"kmFim":0}}}
+[ 14:16:09.235 ] OUT << {"code":99,"message":"Operacao inexistente (371)","data":null}
+[ 14:16:57.105 ] IN >> {"dados":{"entidade":"estatisticas-operacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":0,"motos":0,"ciclomotor":0,"testesBafometro":0},"remocoes":{"carros":0,"motos":0,"ciclomotor":0,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":0,"intervaloDois":0}}}}}
+[ 14:19:14.492 ] IN >> {"dados":{"entidade":"estatisticas-operacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":0,"motos":0,"ciclomotor":0,"testesBafometro":0},"remocoes":{"carros":0,"motos":0,"ciclomotor":0,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":0,"intervaloDois":0}}}}}
+[ 13:26:19.641 ] IN >> {"dados":{"entidade":"estatisticas-operacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":0,"motos":0,"ciclomotor":0,"testesBafometro":0},"remocoes":{"carros":0,"motos":0,"ciclomotor":0,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":0,"intervaloDois":0}}}}}
+[ 13:28:44.353 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":0,"motos":0,"ciclomotor":0,"testesBafometro":0},"remocoes":{"carros":0,"motos":0,"ciclomotor":0,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":0,"intervaloDois":0}}}}}
+[ 13:30:10.842 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":0,"motos":0,"ciclomotor":0,"testesBafometro":0},"remocoes":{"carros":0,"motos":0,"ciclomotor":0,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":0,"intervaloDois":0}}}}}
+[ 13:32:33.080 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":0,"motos":0,"ciclomotor":0,"testesBafometro":0},"remocoes":{"carros":0,"motos":0,"ciclomotor":0,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":0,"intervaloDois":0}}}}}
+[ 13:32:33.080 ] OUT << true
+[ 13:38:24.881 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":0,"motos":0,"ciclomotor":0,"testesBafometro":0},"remocoes":{"carros":0,"motos":0,"ciclomotor":0,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":0,"intervaloDois":0}}}}}
+[ 13:38:24.881 ] OUT << true
+[ 13:39:12.556 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":10,"motos":5,"ciclomotor":2,"testesBafometro":4},"remocoes":{"carros":5,"motos":6,"ciclomotor":8,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":9,"intervaloDois":0}}}}}
+[ 13:39:12.556 ] OUT << true
+[ 13:40:12.909 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":10,"motos":5,"ciclomotor":2,"testesBafometro":4},"remocoes":{"carros":5,"motos":6,"ciclomotor":8,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":9,"intervaloDois":0}}}}}
+[ 13:40:12.909 ] OUT << true
+[ 13:47:26.331 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":10,"motos":5,"ciclomotor":2,"testesBafometro":4},"remocoes":{"carros":5,"motos":6,"ciclomotor":8,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":9,"intervaloDois":0}}}}}
+[ 13:47:26.331 ] OUT << true
+[ 13:48:59.421 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":10,"motos":5,"ciclomotor":2,"testesBafometro":4},"remocoes":{"carros":5,"motos":6,"ciclomotor":8,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":9,"intervaloDois":0}}}}}
+[ 13:48:59.421 ] OUT << true
+[ 13:49:19.515 ] IN >> {   
+    "dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":10,"motos":5,"ciclomotor":2,"testesBafometro":4},"remocoes":{"carros":5,"motos":6,"ciclomotor":8,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":9,"intervaloDois":0}}}}}
+[ 13:49:19.515 ] OUT << true
+[ 13:51:51.487 ] IN >> {   
+    "dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":10,"motos":5,"ciclomotor":2,"testesBafometro":4},"remocoes":{"carros":5,"motos":6,"ciclomotor":8,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":9,"intervaloDois":0}}}}}
+[ 13:51:51.487 ] OUT << true
+[ 13:54:17.288 ] IN >> {   
+    "dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":10,"motos":5,"ciclomotor":2,"testesBafometro":4},"remocoes":{"carros":5,"motos":6,"ciclomotor":8,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":9,"intervaloDois":0}}}}}
+[ 13:54:17.288 ] OUT << true
+[ 13:55:46.346 ] IN >> {   
+    "dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":10,"motos":5,"ciclomotor":2,"testesBafometro":4},"remocoes":{"carros":5,"motos":6,"ciclomotor":8,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":9,"intervaloDois":0}}}}}
+[ 13:55:46.346 ] OUT << true
+[ 13:57:07.986 ] IN >> {   
+    "dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":10,"motos":5,"ciclomotor":2,"testesBafometro":4},"remocoes":{"carros":5,"motos":6,"ciclomotor":8,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":9,"intervaloDois":0}}}}}
+[ 13:57:07.986 ] OUT << true
+[ 13:58:27.408 ] IN >> {   
+    "dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":10,"motos":5,"ciclomotor":2,"testesBafometro":4},"remocoes":{"carros":5,"motos":6,"ciclomotor":8,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":9,"intervaloDois":0}}}}}
+[ 13:58:27.408 ] OUT << true
+[ 14:02:50.022 ] IN >> {   
+    "dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":10,"motos":5,"ciclomotor":2,"testesBafometro":4},"remocoes":{"carros":5,"motos":6,"ciclomotor":8,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":9,"intervaloDois":0}}}}}
+[ 14:03:34.658 ] IN >> {   
+    "dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":10,"motos":5,"ciclomotor":2,"testesBafometro":4},"remocoes":{"carros":5,"motos":6,"ciclomotor":8,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":9,"intervaloDois":0}}}}}
+[ 14:03:34.658 ] OUT << true
+[ 14:04:51.818 ] IN >> {   
+    "dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":10,"motos":5,"ciclomotor":2,"testesBafometro":4},"remocoes":{"carros":5,"motos":6,"ciclomotor":8,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":9,"intervaloDois":0}}}}}
+[ 14:06:45.832 ] IN >> {   
+    "dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagens":{"carros":10,"motos":5,"ciclomotor":2,"testesBafometro":4},"remocoes":{"carros":5,"motos":6,"ciclomotor":8,"outros":0},"numInfracoes":0,"numInfracoesAlcoolizado":{"recusas":{"comSinalEmbriaguez":0,"semSinalEmbriaguez":0},"realizados":{"intervaloUm":9,"intervaloDois":0}}}}}
+[ 14:11:34.989 ] IN >> {   
+    "dados":{
+	"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":
+    {
+		"abordagensCarros":10,"abordagensMotos":5,
+		"abordagensCiclomotor":2,"testesBafometro":4,
+		"remocoesCarros":5,"remocoesMotos":6,"remocoesCiclomotor":8,
+		"outros":0,
+		"numInfracoes":0,
+		"numInfracoesAlcoolizado":1,
+		"recusasComEmbriaguez":0,
+		"recusasSemEmbriaguez":0,
+		numAlcoolIntervaloUm:2,
+		numAlcoolIntervaloDois:3
+	}
+	}
+}
+[ 14:12:02.075 ] IN >> {   
+    "dados":{
+	"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":
+    {
+		"abordagensCarros":10,"abordagensMotos":5,
+		"abordagensCiclomotor":2,"testesBafometro":4,
+		"remocoesCarros":5,"remocoesMotos":6,"remocoesCiclomotor":8,
+		"outros":0,
+		"numInfracoes":0,
+		"numInfracoesAlcoolizado":1,
+		"recusasComEmbriaguez":0,
+		"recusasSemEmbriaguez":0,
+		numAlcoolIntervaloUm:2,
+		numAlcoolIntervaloDois:3
+	}
+	}
+}
+[ 14:12:58.581 ] IN >> {   
+    "dados":{
+	"entidade":"estatisticasOperacao",
+	"operacao":"cadastrar",
+	"objeto":
+    {
+		"abordagensCarros":10,
+		"abordagensMotos":5,
+		"abordagensCiclomotor":2,
+		"testesBafometro":4,
+		"remocoesCarros":5,
+		"remocoesMotos":6,
+		"remocoesCiclomotor":8,
+		"remocoesOutros":0,
+		"numInfracoes":0,
+		"numInfracoesAlcoolizado":1,
+		"recusasComEmbriaguez":0,
+		"recusasSemEmbriaguez":0,
+		"numAlcoolIntervaloUm":2,
+		"numAlcoolIntervaloDois":3
+	}
+	}
+}	
+[ 14:13:46.405 ] IN >> {   
+    "dados":{
+	"entidade":"estatisticasOperacao",
+	"operacao":"cadastrar",
+	"objeto":
+    {
+		"abordagensCarros":10,
+		"abordagensMotos":5,
+		"abordagensCiclomotor":2,
+		"testesBafometro":4,
+		"remocoesCarros":5,
+		"remocoesMotos":6,
+		"remocoesCiclomotor":8,
+		"remocoesOutros":0,
+		"numInfracoes":0,
+		"numInfracoesAlcoolizado":1,
+		"recusasComEmbriaguez":0,
+		"recusasSemEmbriaguez":0,
+		"numAlcoolIntervaloUm":2,
+		"numAlcoolIntervaloDois":3
+	}
+	}
+}	
+[ 14:13:46.405 ] OUT << true
+[ 14:14:12.578 ] IN >> {   
+    "dados":{
+	"entidade":"estatisticasOperacao",
+	"operacao":"cadastrar",
+	"objeto":
+    {
+		"abordagensCarros":160,
+		"abordagensMotos":5,
+		"abordagensCiclomotor":2,
+		"testesBafometro":46,
+		"remocoesCarros":56,
+		"remocoesMotos":66,
+		"remocoesCiclomotor":86,
+		"remocoesOutros":60,
+		"numInfracoes":0,
+		"numInfracoesAlcoolizado":1,
+		"recusasComEmbriaguez":0,
+		"recusasSemEmbriaguez":0,
+		"numAlcoolIntervaloUm":2,
+		"numAlcoolIntervaloDois":3
+	}
+	}
+}	
+[ 14:14:12.578 ] OUT << true
+[ 15:09:11.495 ] IN >> {"dados":{"entidade":"estatisticas-operacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:09:54.110 ] IN >> {   
+    "dados":{
+	"entidade":"estatisticasOperacao",
+	"operacao":"cadastrar",
+	"objeto":
+    {
+		"abordagensCarros":160,
+		"abordagensMotos":5,
+		"abordagensCiclomotor":2,
+		"testesBafometro":46,
+		"remocoesCarros":56,
+		"remocoesMotos":66,
+		"remocoesCiclomotor":86,
+		"remocoesOutros":60,
+		"numInfracoes":0,
+		"numInfracoesAlcoolizado":1,
+		"recusasComEmbriaguez":0,
+		"recusasSemEmbriaguez":0,
+		"numAlcoolIntervaloUm":2,
+		"numAlcoolIntervaloDois":3
+	}
+	}
+} 
+[ 15:09:54.110 ] OUT << true
+[ 15:11:12.988 ] IN >> {   
+    "dados":{
+	"entidade":"estatisticasOperacao",
+	"operacao":"cadastrar",
+	"objeto":
+    {
+		"abordagensCarros":160,
+		"abordagensMotos":5,
+		"abordagensCiclomotor":2,
+		"testesBafometro":46,
+		"remocoesCarros":56,
+		"remocoesMotos":66,
+		"remocoesCiclomotor":86,
+		"remocoesOutros":60,
+		"numInfracoes":0,
+		"numInfracoesAlcoolizado":1,
+		"recusasComEmbriaguez":0,
+		"recusasSemEmbriaguez":0,
+		"numAlcoolIntervaloUm":2,
+		"numAlcoolIntervaloDois":3
+	}
+	}
+} 
+[ 15:11:12.988 ] OUT << true
+[ 15:11:53.365 ] IN >> {   
+    "dados":{
+	"entidade":"estatisticasOperacao",
+	"operacao":"cadastrar",
+	"objeto":
+    {
+		"abordagensCarros":160,
+		"abordagensMotos":5,
+		"abordagensCiclomotor":2,
+		"testesBafometro":46,
+		"remocoesCarros":56,
+		"remocoesMotos":66,
+		"remocoesCiclomotor":86,
+		"remocoesOutros":60,
+		"numInfracoes":0,
+		"numInfracoesAlcoolizado":1,
+		"recusasComEmbriaguez":0,
+		"recusasSemEmbriaguez":0,
+		"numAlcoolIntervaloUm":2,
+		"numAlcoolIntervaloDois":3
+	}
+	}
+} 
+[ 15:11:53.365 ] OUT << true
+[ 15:12:59.354 ] IN >> {   
+    "dados":{
+	"entidade":"estatisticasOperacao",
+	"operacao":"cadastrar",
+	"objeto":
+    {
+		"abordagensCarros":160,
+		"abordagensMotos":5,
+		"abordagensCiclomotor":2,
+		"testesBafometro":46,
+		"remocoesCarros":56,
+		"remocoesMotos":66,
+		"remocoesCiclomotor":86,
+		"remocoesOutros":60,
+		"numInfracoes":0,
+		"numInfracoesAlcoolizado":1,
+		"recusasComEmbriaguez":0,
+		"recusasSemEmbriaguez":0,
+		"numAlcoolIntervaloUm":2,
+		"numAlcoolIntervaloDois":3
+	}
+	}
+} 
+[ 15:12:59.354 ] OUT << true
+[ 15:13:36.763 ] IN >> {   
+    "dados":{
+	"entidade":"estatisticasOperacao",
+	"operacao":"cadastrar",
+	"objeto":
+    {
+		"abordagensCarros":160,
+		"abordagensMotos":5,
+		"abordagensCiclomotor":2,
+		"testesBafometro":46,
+		"remocoesCarros":56,
+		"remocoesMotos":66,
+		"remocoesCiclomotor":86,
+		"remocoesOutros":60,
+		"numInfracoes":0,
+		"numInfracoesAlcoolizado":1,
+		"recusasComEmbriaguez":0,
+		"recusasSemEmbriaguez":0,
+		"numAlcoolIntervaloUm":2,
+		"numAlcoolIntervaloDois":3
+	}
+	}
+} 
+[ 15:13:36.763 ] OUT << {"code":0,"message":"Successo!","data":0}
+[ 15:14:36.111 ] IN >> {"dados":{"entidade":"estatisticas-operacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:14:39.714 ] IN >> {"dados":{"entidade":"estatisticas-operacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:14:47.888 ] IN >> {   
+    "dados":{
+	"entidade":"estatisticasOperacao",
+	"operacao":"cadastrar",
+	"objeto":
+    {
+		"abordagensCarros":160,
+		"abordagensMotos":5,
+		"abordagensCiclomotor":2,
+		"testesBafometro":46,
+		"remocoesCarros":56,
+		"remocoesMotos":66,
+		"remocoesCiclomotor":86,
+		"remocoesOutros":60,
+		"numInfracoes":0,
+		"numInfracoesAlcoolizado":1,
+		"recusasComEmbriaguez":0,
+		"recusasSemEmbriaguez":0,
+		"numAlcoolIntervaloUm":2,
+		"numAlcoolIntervaloDois":3
+	}
+	}
+} 
+[ 15:14:47.888 ] OUT << {"code":0,"message":"Estatu00edsticas salvas com sucesso!","data":0}
+[ 15:15:02.201 ] IN >> {   
+    "dados":{
+	"entidade":"estatisticasOperacao",
+	"operacao":"cadastrar",
+	"objeto":
+    {
+		"abordagensCarros":160,
+		"abordagensMotos":5,
+		"abordagensCiclomotor":2,
+		"testesBafometro":46,
+		"remocoesCarros":56,
+		"remocoesMotos":66,
+		"remocoesCiclomotor":86,
+		"remocoesOutros":60,
+		"numInfracoes":0,
+		"numInfracoesAlcoolizado":1,
+		"recusasComEmbriaguez":0,
+		"recusasSemEmbriaguez":0,
+		"numAlcoolIntervaloUm":2,
+		"numAlcoolIntervaloDois":3
+	}
+	}
+} 
+[ 15:15:02.201 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:15:08.468 ] IN >> {"dados":{"entidade":"estatisticas-operacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:15:50.922 ] IN >> {"dados":{"entidade":"estatisticas-operacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:17:21.161 ] IN >> {   
+    "dados":{
+	"entidade":"estatisticasOperacao",
+	"operacao":"cadastrar",
+	"objeto":
+    {
+		"abordagensCarros":160,
+		"abordagensMotos":5,
+		"abordagensCiclomotor":2,
+		"testesBafometro":46,
+		"remocoesCarros":56,
+		"remocoesMotos":66,
+		"remocoesCiclomotor":86,
+		"remocoesOutros":60,
+		"numInfracoes":0,
+		"numInfracoesAlcoolizado":1,
+		"recusasComEmbriaguez":0,
+		"recusasSemEmbriaguez":0,
+		"numAlcoolIntervaloUm":2,
+		"numAlcoolIntervaloDois":3
+	}
+	}
+} 
+[ 15:17:21.161 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:17:48.546 ] IN >> {"dados":{"entidade":"estatisticas-operacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:18:09.798 ] IN >> {"dados":{"entidade":"estatisticas-operacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:18:47.085 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:18:47.085 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:20:13.171 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:20:13.171 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:20:16.686 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:20:16.686 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:20:42.034 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:20:42.034 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:21:21.318 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:21:21.318 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:22:18.676 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:22:18.676 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:22:36.051 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":"505","abordagensMotos":0,"abordagensCiclomotor":"22","testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":"43","remocoesOutros":0,"numInfracoes":"01","recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:22:36.051 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:23:51.156 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:23:51.156 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:28:26.988 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:28:26.988 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:31:55.889 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:31:55.889 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:32:13.329 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:32:13.329 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:34:13.385 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:34:13.385 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:39:37.464 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:39:37.464 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:45:14.882 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:45:14.882 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:45:29.151 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:45:29.151 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:45:40.824 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":"0123","abordagensMotos":"0123","abordagensCiclomotor":"023","testesBafometro":0,"remocoesCarros":"044","remocoesMotos":"023","remocoesCiclomotor":"023","remocoesOutros":"023","numInfracoes":"023","recusasComEmbriaguez":0,"recusasSemEmbriaguez":"02323","numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:45:40.824 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:45:49.461 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":"0123","abordagensMotos":"0123","abordagensCiclomotor":"023","testesBafometro":0,"remocoesCarros":"","remocoesMotos":"","remocoesCiclomotor":"023","remocoesOutros":"023","numInfracoes":"023","recusasComEmbriaguez":0,"recusasSemEmbriaguez":"","numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:45:49.461 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:45:53.893 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":"0123","abordagensMotos":"0123","abordagensCiclomotor":"023","testesBafometro":0,"remocoesCarros":"2","remocoesMotos":"","remocoesCiclomotor":"023","remocoesOutros":"023","numInfracoes":"023","recusasComEmbriaguez":0,"recusasSemEmbriaguez":"","numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:45:53.893 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:46:27.057 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":"0123","abordagensMotos":"0123","abordagensCiclomotor":"023","testesBafometro":0,"remocoesCarros":"2","remocoesMotos":"","remocoesCiclomotor":"023","remocoesOutros":"023","numInfracoes":"023","recusasComEmbriaguez":0,"recusasSemEmbriaguez":"","numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:46:27.057 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}
+[ 15:47:54.591 ] IN >> {"dados":{"entidade":"estatisticasOperacao","operacao":"cadastrar","objeto":{"abordagensCarros":0,"abordagensMotos":0,"abordagensCiclomotor":0,"testesBafometro":0,"remocoesCarros":0,"remocoesMotos":0,"remocoesCiclomotor":0,"remocoesOutros":0,"numInfracoes":0,"recusasComEmbriaguez":0,"recusasSemEmbriaguez":0,"numAlcoolIntervaloUm":0,"numAlcoolIntervaloDois":0}}}
+[ 15:47:54.591 ] OUT << {"code":0,"message":"Estatisticas salvas com sucesso!","data":0}

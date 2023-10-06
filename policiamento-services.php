@@ -10,6 +10,7 @@ use App\Entity\Equipamento;
 use App\Entity\Usuario;
 use App\Entity\OperacaoDetalhada;
 use App\Entity\ConfigurationAPI;
+use App\Entity\EstatisticasOperacao;
 
 /*"dados: {
         'entidade': 'uso-equipamento',
@@ -105,6 +106,7 @@ if ( $_SERVER[ 'REQUEST_METHOD' ] === 'POST' )
 {
      // if ( ConfigurationAPI::$EXECUTION_MODE == 'DEBUG')
      // print_r( file_get_contents('php://input') );
+
      $jsonStrIn = file_get_contents( 'php://input' );
      $data = json_decode( $jsonStrIn, true );
      $logIn = "[ " . $SERVER_FORMATTED_TIME . " ] IN >> " . $jsonStrIn;
@@ -122,7 +124,11 @@ if ( $_SERVER[ 'REQUEST_METHOD' ] === 'POST' )
           $DATA_OBJECT = $data['dados']['objeto'];
 
      $DATA_OPERATION = $data['dados']['operacao'];
-
+     /**
+     echo "-Entidade: " . $DATA_ENTITY;
+     print_r( $DATA_OBJECT );
+     echo "-Op: " . $DATA_OPERATION;
+     **/
      switch ( $DATA_ENTITY )
      {
        case 'operacao' :
@@ -141,6 +147,10 @@ if ( $_SERVER[ 'REQUEST_METHOD' ] === 'POST' )
              $entityObj = new Usuario;
              break;
 
+       case 'estatisticasOperacao':
+             $entityObj = new EstatisticasOperacao;
+             break;
+
        case 'agente' :
              $entityObj = new Agente;
              break;
@@ -148,15 +158,15 @@ if ( $_SERVER[ 'REQUEST_METHOD' ] === 'POST' )
        case 'operacaoDetalhada' :
              $entityObj = new OperacaoDetalhada;
              break;
-     }
+    }
 
     switch ( $DATA_OPERATION )
     {
         case 'cadastrar':
-              if ( ConfigurationAPI::$EXECUTION_MODE == 'DEBUG')  {
+              /*if ( ConfigurationAPI::$EXECUTION_MODE == 'DEBUG')  {
                    print_r( $data['dados']['objeto'] );
                    echo 'Cadastra response ------- <br>';
-              }
+              //}*/
               $response = $entityObj->cadastra( $DATA_OBJECT );
               break;
 

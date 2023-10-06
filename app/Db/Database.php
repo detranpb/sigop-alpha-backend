@@ -55,21 +55,21 @@ class Database{
    * @param string $table
    */
   public function __construct( $table = null , $isUserCadastro = false ) {
-    $this->table = $table;
-    $this->isUserCadastro = $isUserCadastro;
-    $this->setConnection();
+      $this->table = $table;
+      $this->isUserCadastro = $isUserCadastro;
+      $this->setConnection();
   }
 
   /**
    * Método responsável por criar uma conexão com o banco de dados
    */
-  private function setConnection(){
-    try{
-      $this->connection = new PDO('mysql:host='.self::HOST.';dbname='.self::NAME,self::USER,self::PASS);
-      $this->connection->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-    }catch(PDOException $e){
-      die('ERROR: '.$e->getMessage());
-    }
+  private function setConnection()    {
+      try {
+           $this->connection = new PDO('mysql:host='.self::HOST.';dbname='.self::NAME,self::USER,self::PASS);
+           $this->connection->setAttribute( PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION );
+      } catch ( PDOException $e ) {
+          die('ERROR: '.$e->getMessage());
+      }
   }
 
   /**
@@ -82,14 +82,14 @@ class Database{
   {
       try {
            //if ( ConfigurationAPI::$EXECUTION_MODE == 'DEBsUG')  {
-                ;
+                
           //}
           $statement = $this->connection->prepare($query);
           /*echo "--------- DB: execute ----------";
           echo '-- SQL Statement';
           print_r( $statement );
-          /** echo '-- Valores';
-          print_r( $params );**/
+          echo '-- Valores';
+          print_r( $params );*/
 
           $statement->execute( $params );
           return $statement;
@@ -111,8 +111,9 @@ class Database{
    * @param  array $values [ field => value ]
    * @return integer ID inserido
    */
-  public function insert($values){
+  public function insert( $values )   {
     //DADOS DA QUERY
+
     $fields = array_keys($values);
     $binds  = array_pad([],count($fields),'?');
 
@@ -137,7 +138,7 @@ class Database{
    * @param  string $fields
    * @return PDOStatement
    */
-  public function select($where = null, $order = null, $limit = null, $fields = '*'){
+  public function select( $where = null, $order = null, $limit = null, $fields = '*' )    {
 
     //DADOS DA QUERY
     $where = strlen($where) ? 'WHERE '   .$where : '';
@@ -170,7 +171,7 @@ class Database{
     //  echo 'select query ==>> ' . $query . '<br>';
 
       // EXECUTA A QUERY
-      return $this->execute($query);
+      return $this->execute( $query );
   }
 
   /**
@@ -179,15 +180,15 @@ class Database{
    * @param  array $values [ field => value ]
    * @return boolean
    */
-  public function update($where,$values){
-    //DADOS DA QUERY
-    $fields = array_keys($values);
-
+  public function update( $where, $values )
+  {
+    // ---- DADOS DA QUERY ----
+    $fields = array_keys( $values );
     /*echo " ----------- fields ----------- ";
     print_r( $fields );*/
 
 
-    //MONTA A QUERY
+    // MONTA A QUERY
     $query = 'UPDATE '.$this->table.' SET '.implode('=?,',$fields).'=? WHERE '.$where;
 
     // echo "Query ==>> " . $query;
